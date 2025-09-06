@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Calculadora {
 
     public static int calculator(){
+
         Scanner scanner = new Scanner(System.in);
         //TODO check for more complexity
         String input = scanner.nextLine().trim().replace(" ", "");
